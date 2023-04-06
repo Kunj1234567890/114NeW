@@ -1,0 +1,27 @@
+body{
+    background-position: center;
+}
+
+
+h2{
+    font-size: 25px !important;
+}
+.btn-success:hover{
+    background-color: rgb(6, 81, 100);
+    text-decoration-color: black;
+}
+canvas{
+    animation-name: hello;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    background-color: white;
+
+}
+@keyframes hello {
+    from {box-shadow: 5px 5px 150px rgb(2, 95, 63);}
+    to {box-shadow: 5px 5px 170px rgb(101, 85, 4);}
+    to {box-shadow: 5px 5px 180px rgb(109, 141, 35);}
+    
+    
+}
+
